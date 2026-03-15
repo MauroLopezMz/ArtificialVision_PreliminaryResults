@@ -1,0 +1,11 @@
+Declaration of AI Usage: 
+
+An Artificial Intelligence tool (Google Gemini) was employed during the development of this project. It was utilized as a pair-programming assistant to accelerate the generation of the Python boilerplate code for the synthetic signal mathematical functions, to assist in structuring the CNN layer architecture using TensorFlow/Keras. All underlying methodologies, hyperparameter tuning, and architectural decisions were guided and validated by the author.
+
+The most representative references for this delivery are shown below:
+[1]	I. S. Samanta et al., “A Comprehensive Review of Deep-Learning Applications to Power Quality Analysis,” Jun. 	01, 2023, MDPI. doi: 10.3390/en16114406.
+[2]	F. Guo, J. Li, X. Xu, Y. Zhu, X. Luo, and W. Qian, “Classification of Transient Power Quality Disturbances 	Based on Digital Image Processing Techniques,” in 2023 8th International Conference on Power and Renewable 	Energy, ICPRE 2023, Institute of Electrical and Electronics Engineers Inc., 2023, pp. 492–498. doi: 	10.1109/ICPRE59655.2023.10353758.
+[3]	E. Perez-Anaya, A. Y. Jaen-Cuellar, D. A. Elvira-Ortiz, R. de J. Romero-Troncoso, and J. J. Saucedo-Dorantes, 	“Methodology for the Detection and Classification of Power Quality Disturbances Using CWT and CNN,” 	Energies (Basel)., vol. 17, no. 4, Feb. 2024, doi: 10.3390/en17040852.
+[4]	A. A. Memon, M. A. Koondhar, S. F. Al-Gahtani, Z. M. S. Elbarbary, and Z. M. Alaas, “Comprehensive review 	of power quality disturbance detection and classification techniques,” Computers and Electrical Engineering, vol. 	126, Aug. 2025, doi: 10.1016/j.compeleceng.2025.110512.
+[5]	M. H. Anwar, M. M. A. Baig, A. J. Shaikh, and A. G. Abro, “Detection and classification of power quality 	disturbances: Vision transformers vs. CNN,” AIMS Energy, vol. 13, no. 5, pp. 1052–1075, Jan. 2025, doi: 	10.3934/energy.2025039.
+[6]	H. Bai et al., “A Lightweight Model for Power Quality Disturbance Recognition Targeting Edge Deployment,” 	Energies (Basel)., vol. 19, no. 2, p. 368, Jan. 2026, doi: 10.3390/en19020368.
