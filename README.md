@@ -13,6 +13,18 @@ This project transforms 1D electrical time-series signals into 2D time-frequency
 ## Preliminary Advances
 A comprehensive dataset of 18,000 synthetic PQD signals (across 6 classes) was mathematically generated based on IEEE 1159 parameters and successfully transformed into 2D CWT spectrograms. Subsequently, a custom CNN architecture was developed, compiled, and validated on the image dataset, effectively resolving the feature overlap and proving the viability of the deep learning approach. As the results seemed to be too good to be true, the following step was to use an existing dataset. Then a 1D-dataset  with 17 classes was used for generating a 2D dataset. Then the same steps for the sinthetic data was implemented to see a more realistic result.
 
+## Final Results
+For the final part of the Artificial Vision project some improvements were accomplished, as well as some more experiments. In the following the list of improvements and experiments are shown.
+- Improvements for the CNN
+  1. SpecAugment (Time and Frequency Masking)
+  2. CLAHE (Contrast Limited Adaptive Histogram Equalization)
+  3. Grayscale Conversion vs. Colormaps
+- Training amd Validating a CRNN
+- Training amd Validating a MobileNetV2
+- Training and validating an SVM
+- Final comparison between all models and approaches
+
+
 ## File Structure
 ```text
 /
@@ -20,6 +32,14 @@ A comprehensive dataset of 18,000 synthetic PQD signals (across 6 classes) was m
                                               # Defines and trains the Deep Learning CNN architecture
 ├── ExistentDataset_CNN_Classifier.ipynb      # Process the 1D signals to get a 2D dataset
                                               # Defines and trains the Deep Learning CNN architecture
+├── ExistentDataset_CNN_Classifier_Additional_Preprocessing.ipynb      # Adds the preprocessing improvements proposed to the CNN
+                                              # Defines and trains the Deep Learning CNN modified/enhanced architecture
+                                              # Defines and trains the Deep Learning CRNN architecture
+                                              # Defines and trains the MobileNetV2 architecture
+                                              # Final Performance Comparison
+├── Non_DL_SVM.ipynb                          # Performs a complete feature extraction process for the SVM
+                                              # Defines and trains the SVM                                              
+                                              # Final Performance Comparison
 ├── /pq_complex_spectrograms/ # Directory containing the generated image dataset (excluded from repo)
 │   ├── /Complex
 │   ├── /Harmonics
